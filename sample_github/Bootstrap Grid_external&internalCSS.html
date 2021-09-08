@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--  <meta charset="utf-8">
+      -->
+    <title>Bootstrap Grid Example_externalCSS&internalCSS</title>
+   <!-- external CSS format -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ 
+ <!-- internal CSS format -->
+ <style type="text/css"> 
+
+ div{
+  font-size:140%;
+  
+}
+
+div[class^="visible"]{
+  border: 1px solid black;
+  margin-top:3%;
+}
+
+div[class$=lg]{
+  color:red;
+}
+div[class$=md]{
+  color:blue;
+}
+div[class$=sm]{
+  color:green;
+}
+
+</style>
+ <!-- internal CSS format -->
+
+
+</head>
+
+<body>
+<div class = "container">
+  <div class="row">
+
+    <div class="col-md-6 col-lg-3">
+        <div class="visible-xs visible-sm">Extra Small and Small Screen</div>
+        <div class="visible-md">Medium Screen</div>
+        <div class="visible-lg">Large Screen</div> 
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <div class="visible-xs visible-sm">Extra Small and Small Screen</div>
+        <div class="visible-md">Medium Screen</div>
+        <div class="visible-lg">Large Screen</div> 
+    </div>
+    <div class="col-md-6 col-lg-3">
+        <div class="visible-xs visible-sm">Extra Small and Small Screen</div>
+        <div class="visible-md">Medium Screen</div>
+        <div class="visible-lg">Large Screen</div> 
+    </div>  
+    <div class="col-md-6 col-lg-3">
+        <div class="visible-xs visible-sm">Extra Small and Small Screen</div>
+        <div class="visible-md">Medium Screen</div>
+        <div class="visible-lg">Large Screen</div> 
+    </div> 
+
+  </div>
+</div>
+
+
+</body>
+</html>
